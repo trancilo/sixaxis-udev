@@ -1,0 +1,1 @@
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="PLAYSTATION(R)3 Controller", SYMLINK+="input/by-id/usb-Sony_PLAYSTATION_R_3_Controller-event-joystick%n"
