@@ -27,6 +27,7 @@ The following steps are for archlinux but most steps will work for most linux di
 * install package bluez-plugins. Containing the sixaxis bluetooth driver
 * follow the steps here to connect your dualshock3 https://wiki.gentoo.org/wiki/Sony_DualShock#DualShock_3
 * make sure you have trusted the dualshock3. which will make it possible to easily reconnect.
+* copy the udev rule file provided in this repo to /etc/udev/rules.d/
 * reconnect your dualshock3
 
 Your dualshock3 should now be visible in /dev/input/by-id/
