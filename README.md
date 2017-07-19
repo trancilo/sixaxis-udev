@@ -1,7 +1,8 @@
 # sixaxis-udev
 udev rules to use playstation 3 dualshock controllers over bluetooth in RocketLeauge 
 
-There are a lot of names for the ps3 controller. From here on out I will call it the dualshock3
+There are a lot of names for the ps3 controller. From here on out I will call it the dualshock3.
+
 Getting the dualshock3 to work over bluetooth under archlinux with RocketLeauge has been a challange.
 After some debugging and a lot of trial and error I found a way to get it to work.
 
@@ -30,3 +31,6 @@ The following steps are for archlinux but most steps will work for most linux di
 
 Your dualshock3 should now be visible in /dev/input/by-id/
 
+## Thanks
+Daniel Drake for writing a great article on how to write udev rules
+http://reactivated.net/writing_udev_rules.html
